@@ -1,0 +1,72 @@
+/* 列表外觀 */
+.Highlist{
+    border-bottom: 3px solid rgb(0, 0, 0);
+    height: 250px;
+    display: flex;
+        /* 啟用flexbox */
+    gap: 1cm;
+   
+    
+}
+.meduinlist{
+    border-bottom:3px solid rgb(0, 0, 0);
+    height: 250px;
+        display: flex;
+        /* 啟用flexbox */
+        gap: 1cm;
+        flex-grow: 1;
+}
+
+.lowlist{
+    border-bottom: 3px solid rgb(0, 0, 0);
+    height: 250px;
+        display: flex;
+        /* 啟用flexbox */
+        gap: 1cm;
+        flex-grow: 1;
+}
+
+/* 列表內單元格外觀 */
+
+.Highlistmenu{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #ff4136;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.meduinlistmenu{
+    border: 2px solid rgb(0, 0, 0);
+background-color: #ffee00;
+width: 200px;
+height: 200px;
+}
+
+.lowlistmenu{
+    border: 2px solid rgb(0, 0, 0);
+background-color: #0083fd;
+width: 200px;
+height: 200px;
+}
+
+/* 標題 */
+.todolistmenuTitle{
+        font-size: 40px;
+        font-weight: bold;
+}
+
+.itemtitle{
+    border: 2px solid rgb(0, 0, 0);
+    font-size: large;
+   font-weight: bold;
+}
+
+
+
+.listitem-unresolved {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(161, 161, 161);
+    width: 200px;
+    height: 200px;
+}
